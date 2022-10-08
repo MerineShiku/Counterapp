@@ -1,0 +1,59 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url("images/Boutique.jpg");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    
+    
+
+}
+
+
+.container{
+
+    background: white;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background:aqua;
+    border: 4px solid saddlebrown;
+   
+}
+
+button{
+    background:saddlebrown;
+    padding: 20px 20px;
+    margin: 20px;
+    width: 200px;
+    color: white;
+    font: inherit;
+    font:bold;
+    border-radius: 4px;
+    border: none;
+}
+
+button:hover{
+
+   background: salmon;
+}
+
+
+#save-btn{
+    background:green;
+}
+
+#save-btn:hover{
+    background:salmon;
+}
+
+
